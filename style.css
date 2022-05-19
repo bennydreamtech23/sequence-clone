@@ -1,0 +1,88 @@
+body {
+    margin:0px;
+    padding: 0px;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+.top{
+   position: fixed;
+   top:0;
+   left: 0;
+   background-image: linear-gradient(45deg, #7EC8E3, #000C66,  #050A30, black);
+}
+
+.main {
+   background-image: linear-gradient(45deg, #7EC8E3, #000C66,  #050A30, black);
+   height: 100%;
+   width: 100%;
+}
+
+.btn1{
+  border: none;
+  width:200px;
+  margin-bottom:100px;
+  border-radius: 100px;
+  background-image: linear-gradient(-33deg, pink, #009eff, #00d2ff);
+  color: white;
+  font-weight: bold;
+}
+
+.box1{
+   background-image: linear-gradient(80deg, #c55ffc, #009eff, #75e6da);
+   border-radius: 12px;
+}
+
+.title{
+   font-size: 18px;
+}
+
+.group{
+  list-style: none;
+}
+
+.newsletter{
+  background-image: linear-gradient(to right top, #3c393b, #3c393c, #3c3a3d, #3b3a3d, #3b3b3e, #3c3d3f, #3d3e40, #3e4041, #404344, #434546, #454849, #484b4b);
+  opacity: 0.9;
+  border-radius: 12px;
+}
+
+.newsletter-text{
+  font-size: 16px;
+}
+
+.join {
+  border: none;
+  width:150px;
+  border-radius: 75px;
+  background-image: linear-gradient(-33deg, pink, #009eff, #00d2ff);
+  color: white;
+  font-weight: bold;
+}
+
+.other-text{
+  padding-left: 5px;
+}
+
+.text-gradient{
+   background-image: linear-gradient(45deg, #c889ec, #be8dec, #b491ea, #ab94e8, #a397e5, #979fec, #8ba7f1, #7faff4, #65beff, #46cdff, #22daff, #0ee7ff);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+}
+
+.text-gradient1{
+   background-image: linear-gradient(45deg, #560f7f, #582691, #5839a4, #574ab6, #555ac7, #456dd8, #2e80e7, #0092f4, #00a9fe, #00bfff, #00d4ff, #0ee7ff);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+}
+
+
+@media(min-width:768px){
+  .news-input{
+    width: 50%; 
+}
+}
